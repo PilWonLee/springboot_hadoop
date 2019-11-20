@@ -8,8 +8,8 @@ quiztok hadoop 연동
 		<artifactId>jdk.tools</artifactId>
 		<version>1.8.0_202</version>
 		<scope>system</scope>
-      		<systemPath>/usr/local/java/lib/tools.jar</systemPath>
-      		<!-- <systemPath>C:\Java\jdk1.8.0_202\lib\tools.jar</systemPath> -->
+		<systemPath>/usr/local/java/lib/tools.jar</systemPath>
+		<!-- <systemPath>C:\Java\jdk1.8.0_202\lib\tools.jar</systemPath> -->
 	</dependency>
     
     *배포시 java_home으로 맞춰 줘야함
