@@ -19,3 +19,7 @@ quiztok hadoop 연동
 * profile 수정
 * HADOOP_HOME 추가
 * export HADOOP_OPTS="$HADOOP_OPTS -Djava.library.path=$HADOOP_HOME/lib/native" 추가
+
+# fs.defaultFS
+
+*core-site.xml 똑같이 수정해야함
