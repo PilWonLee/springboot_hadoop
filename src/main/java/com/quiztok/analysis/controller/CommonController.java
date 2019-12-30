@@ -31,8 +31,8 @@ public class CommonController {
     	
     	String originalFilePath1 = CmmUtil.nvl(request.getParameter("parm1"));
     	String originalFilePath2 = CmmUtil.nvl(request.getParameter("parm2"));
-    	String filePath1 = "/home/ftpUser01/"+originalFilePath1;
-    	String filePath2 = "/home/ftpUser01/"+originalFilePath2;
+    	String filePath1 = "/data/quiz01/"+originalFilePath1;
+    	String filePath2 = "/data/quiz01/"+originalFilePath2;
     	String uploadPathStr = CmmUtil.nvl(request.getParameter("parm3"));
     	
     	log.info("originalFilePath1 : "+originalFilePath1);
